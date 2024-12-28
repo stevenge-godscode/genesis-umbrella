@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genesis-audio-cleaner
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: genesis-audio-cleaner
+  template:
+    metadata:
+      labels:
+        app: genesis-audio-cleaner
+    spec:
+      containers:
+      - name: genesis-audio-cleaner
+        image: stevenge-godscode/genesis-audio-cleaner:latest

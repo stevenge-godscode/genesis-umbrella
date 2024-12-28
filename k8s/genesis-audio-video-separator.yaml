@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genesis-audio-video-separator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: genesis-audio-video-separator
+  template:
+    metadata:
+      labels:
+        app: genesis-audio-video-separator
+    spec:
+      containers:
+      - name: genesis-audio-video-separator
+        image: stevenge-godscode/genesis-audio-video-separator:latest

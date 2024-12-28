@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genesis-target-video
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: genesis-target-video
+  template:
+    metadata:
+      labels:
+        app: genesis-target-video
+    spec:
+      containers:
+      - name: genesis-target-video
+        image: stevenge-godscode/genesis-target-video:latest

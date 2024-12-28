@@ -1,0 +1,39 @@
+[submodule "genesis-base"]
+path = genesis-base
+url = git@github.com:stevenge-godscode/genesis-base.git
+
+[submodule "genesis-retrieve-task"]
+path = genesis-retrieve-task
+url = git@github.com:stevenge-godscode/genesis-retrieve-task.git
+
+[submodule "genesis-audio-video-separator"]
+path = genesis-audio-video-separator
+url = git@github.com:stevenge-godscode/genesis-audio-video-separator.git
+
+[submodule "genesis-audio-cleaner"]
+path = genesis-audio-cleaner
+url = git@github.com:stevenge-godscode/genesis-audio-cleaner.git
+
+[submodule "genesis-video-reference"]
+path = genesis-video-reference
+url = git@github.com:stevenge-godscode/genesis-video-reference.git
+
+[submodule "genesis-script-generator"]
+path = genesis-script-generator
+url = git@github.com:stevenge-godscode/genesis-script-generator.git
+
+[submodule "genesis-target-audio"]
+path = genesis-target-audio
+url = git@github.com:stevenge-godscode/genesis-target-audio.git
+
+[submodule "genesis-target-video"]
+path = genesis-target-video
+url = git@github.com:stevenge-godscode/genesis-target-video.git
+
+[submodule "genesis-task-updater"]
+path = genesis-task-updater
+url = git@github.com:stevenge-godscode/genesis-task-updater.git
+
+[submodule "genesis-dags"]
+path = genesis-dags
+url = git@github.com:stevenge-godscode/genesis-dags.git

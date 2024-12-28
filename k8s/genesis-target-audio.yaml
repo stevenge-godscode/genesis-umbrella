@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genesis-target-audio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: genesis-target-audio
+  template:
+    metadata:
+      labels:
+        app: genesis-target-audio
+    spec:
+      containers:
+      - name: genesis-target-audio
+        image: stevenge-godscode/genesis-target-audio:latest
